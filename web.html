@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONOSPACE | Bold Italic Terminal</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Терминал ввода -->
+    <div class="terminal-input">
+        <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">terminal@monospace:~</span>
+        </div>
+        <div class="terminal-body">
+            <p class="command">$ cat welcome.txt</p>
+            <p class="output">Добро пожаловать в мир <span class="mono-bold-italic">МОНОШИРИННОГО ЖИРНОГО КУРСИВА</span></p>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="mono-bold-italic">[MONO:BOLD:ITALIC]</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="mono-bold-italic">ГЛАВНАЯ</a></li>
+                <li><a href="#about" class="mono-bold-italic">О ПРОЕКТЕ</a></li>
+                <li><a href="#features" class="mono-bold-italic">ФИЧИ</a></li>
+                <li><a href="#code" class="mono-bold-italic">КОД</a></li>
+                <li><a href="#contact" class="mono-bold-italic">КОНТАКТЫ</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-terminal"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главный блок -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="mono-bold-italic">&lt;MONOSPACE/&gt;</span><br>
+                    <span class="hero-subtitle">ЖИРНЫЙ КУРСИВ В МОНОШИРИННОМ МИРЕ</span>
+                </h1>
+                <p class="hero-description">
+                    Здесь каждый символ имеет значение. Каждый пиксель на счету.<br>
+                    <span class="mono-bold-italic">font-family: 'JetBrains Mono', monospace;</span><br>
+                    <span class="mono-bold-italic">font-weight: 800;</span><br>
+                    <span class="mono-bold-italic">font-style: italic;</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#code" class="btn btn-primary mono-bold-italic">НАЧАТЬ КОДИТЬ</a>
+                    <a href="#features" class="btn btn-secondary mono-bold-italic">ВИЖУАЛИЗИРОВАТЬ</a>
+                </div>
+            </div>
+            <div class="hero-terminal">
+                <div class="code-block">
+                    <pre><code>
+<span class="code-comment">// Пример моноширинного кода</span>
+<span class="code-keyword">const</span> <span class="code-var">monospaceStyle</span> = {
+    <span class="code-prop">fontFamily</span>: <span class="code-string">"'JetBrains Mono', monospace"</span>,
+    <span class="code-prop">fontWeight</span>: <span class="code-number">800</span>,
+    <span class="code-prop">fontStyle</span>: <span class="code-string">"italic"</span>,
+    <span class="code-prop">letterSpacing</span>: <span class="code-string">"-0.02em"</span>
+};
+
+<span class="code-function">function</span> <span class="code-func-name">createAwesomeText</span>() {
+    <span class="code-keyword">return</span> <span class="mono-bold-italic">"ЭТО ВЫГЛЯДИТ КРУТО!"</span>;
+}
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блоки с фичами -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title mono-bold-italic">[ОСОБЕННОСТИ]</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-font mono-bold-italic"></i>
+                    </div>
+                    <h3 class="feature-title mono-bold-italic">МОНОШИРИННЫЙ</h3>
+                    <p class="feature-desc">
+                        Каждый симметр занимает одинаковую ширину. 
+                        <span class="mono-bold-italic">Идеально для кода и терминала.</span>
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bold mono-bold-italic"></i>
+                    </div>
+                    <h3 class="feature-title mono-bold-italic">ЖИРНЫЙ</h3>
+                    <p class="feature-desc">
+                        Насыщенный вес шрифта. 
+                        <span class="mono-bold-italic">Выглядит мощно и уверенно.</span>
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-italic mono-bold-italic"></i>
+                    </div>
+                    <h3 class="feature-title mono-bold-italic">КУРСИВ</h3>
+                    <p class="feature-desc">
+                        Элегантный наклон символов. 
+                        <span class="mono-bold-italic">Добавляет динамики тексту.</span>
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code mono-bold-italic"></i>
+                    </div>
+                    <h3 class="feature-title mono-bold-italic">КОДИРОВКА</h3>
+                    <p class="feature-desc">
+                        Поддержка UTF-8 и всех символов. 
+                        <span class="mono-bold-italic">{ } [ ] ( ) < > " ' `</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с демонстрацией текста -->
+    <section id="about" class="demo-section">
+        <div class="container">
+            <h2 class="section-title mono-bold-italic">[ДЕМОНСТРАЦИЯ ТЕКСТА]</h2>
+            <div class="demo-grid">
+                <div class="demo-block">
+                    <h3 class="demo-title mono-bold-italic">РЕГУЛЯРНЫЙ ТЕКСТ</h3>
+                    <p class="demo-text regular">
+                        Это обычный текст для сравнения. Он использует стандартный шрифт без особых стилей.
+                    </p>
+                </div>
+                
+                <div class="demo-block">
+                    <h3 class="demo-title mono-bold-italic">МОНОШИРИННЫЙ</h3>
+                    <p class="demo-text monospace">
+                        А это моноширинный текст. Заметили разницу? Все символы одинаковой ширины.
+                    </p>
+                </div>
+                
+                <div class="demo-block highlight">
+                    <h3 class="demo-title mono-bold-italic">МОНОШИРИННЫЙ ЖИРНЫЙ КУРСИВ</h3>
+                    <p class="demo-text mono-bold-italic">
+                        ВАУ! Это то, ради чего мы здесь! Комбинация моноширинного, жирного и курсива.
+                        Каждый символ - произведение искусства. Идеально для заголовков и акцентов.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с кодом -->
+    <section id="code" class="code-section">
+        <div class="container">
+            <h2 class="section-title mono-bold-italic">[ГЕНЕРАТОР ТЕКСТА]</h2>
+            <div class="code-generator">
+                <div class="input-group">
+                    <label for="textInput" class="mono-bold-italic">ВВЕДИТЕ ТЕКСТ:</label>
+                    <input type="text" id="textInput" class="mono-input" 
+                           value="ПРИВЕТ, МИР МОНОШИРИННОГО ТЕКСТА!">
+                    <button id="generateBtn" class="btn btn-primary mono-bold-italic">
+                        ГЕНЕРИРОВАТЬ
+                    </button>
+                </div>
+                
+                <div class="output-preview">
+                    <h3 class="preview-title mono-bold-italic">ПРЕДПРОСМОТР:</h3>
+                    <div id="textPreview" class="mono-bold-italic">
+                        ПРИВЕТ, МИР МОНОШИРИННОГО ТЕКСТА!
+                    </div>
+                    
+                    <div class="style-controls">
+                        <div class="control">
+                            <label class="mono-bold-italic">РАЗМЕР ШРИФТА:</label>
+                            <input type="range" id="fontSize" min="12" max="48" value="24">
+                            <span id="sizeValue" class="mono-bold-italic">24px</span>
+                        </div>
+                        
+                        <div class="control">
+                            <label class="mono-bold-italic">ЦВЕТ ТЕКСТА:</label>
+                            <input type="color" id="textColor" value="#00ff88">
+                            <span id="colorValue" class="mono-bold-italic">#00FF88</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="css-output">
+                    <h3 class="preview-title mono-bold-italic">CSS КОД:</h3>
+                    <pre id="cssCode" class="mono-bold-italic">
+.mono-bold-italic {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 24px;
+    color: #00ff88;
+    letter-spacing: -0.02em;
+}
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="mono-bold-italic">[MONOSPACE:BOLD:ITALIC]</span>
+                    <p class="footer-desc">
+                        Эксперименты с типографикой и веб-дизайном
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="mono-bold-italic">БЫСТРЫЕ ССЫЛКИ</h4>
+                    <ul>
+                        <li><a href="#home" class="mono-bold-italic">ГЛАВНАЯ</a></li>
+                        <li><a href="https://github.com/onion-xanax" class="mono-bold-italic" target="_blank">GITHUB</a></li>
+                        <li><a href="#code" class="mono-bold-italic">ГЕНЕРАТОР</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-tech">
+                    <h4 class="mono-bold-italic">ТЕХНОЛОГИИ</h4>
+                    <div class="tech-icons">
+                        <span class="tech-icon mono-bold-italic">HTML5</span>
+                        <span class="tech-icon mono-bold-italic">CSS3</span>
+                        <span class="tech-icon mono-bold-italic">PYTHON</span>
+                        <span class="tech-icon mono-bold-italic">FLASK</span>
+                        <span class="tech-icon mono-bold-italic">JS</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="mono-bold-italic">
+                    Создано с <i class="fas fa-heart"></i> для любителей моноширинного текста | 
+                    <span id="currentYear">2024</span>
+                </p>
+                <p class="terminal-command">
+                    <span class="mono-bold-italic">$ echo "Спасибо за посещение!"</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="/js/script.js"></script>
+    <script>
+        // Установка текущего года
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
